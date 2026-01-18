@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+/* custom css */
+@layer utilities {
+  /* gogle font */
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* colors */
+:root {
+  --bg-color: rgba(0, 0, 0, 1);
+  --btn-prymary: rgba(230, 83, 60, 1);
+  --text-color: rgba(255, 255, 255, 1);
+  --border-color: rgba(255, 255, 255, 0.1);
+}
