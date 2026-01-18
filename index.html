@@ -20,11 +20,10 @@
     <link rel="stylesheet" href="./css/custom.css" />
     <title>fitness-website</title>
   </head>
-  <body
-    class="font-inter bg-(--bg-color) w-[97%] mx-auto sm:w-[95%] md:w-[90%] lg:w-[85%] xl:w-[80%]"
-  >
-    <header>
-      <nav>
+  <body class="font-inter bg-(--bg-color)">
+    <header class="bg-gradient">
+      <nav class="w-[97%] mx-auto sm:w-[95%] md:w-[90%] lg:w-[85%] xl:w-[80%]">
+        <!-- nav -->
         <section class="flex justify-between items-center py-7">
           <!-- nav logo -->
           <div>
@@ -32,7 +31,7 @@
           </div>
           <!-- nav link -->
           <div
-            class="text-center text-xl rounded-[46px] border pr-5 pl-1 py-1 hidden lg:block"
+            class="text-center text-xl rounded-[46px] border pr-5 pl-1 py-1 hidden md:block"
           >
             <ul class="flex gap-5 items-center text-(--text-color)">
               <li
@@ -46,14 +45,48 @@
             </ul>
           </div>
           <!-- humburger -->
-          <div class="text-white text-3xl lg:hidden">
+          <div class="text-white text-3xl md:hidden">
             <i class="ri-align-justify"></i>
+          </div>
+        </section>
+
+        <!-- banner -->
+        <section class="md:flex justify-between">
+          <!-- banner text -->
+          <div class="flex flex-col gap-7 py-[77px]">
+            <div class="max-w-[285px] sm:max-w-[400px] md:max-w-[520px]">
+              <h1
+                class="text-4xl sm:text-6xl md:text-7xl font-bold leading-[120%] text-(--text-color)"
+              >
+                Get body in shape & stay healthy
+              </h1>
+              <p class="text-(--text-peragraph) text-[18px]">
+                A huge selection of health and fitness content, healthy recipes
+                and transformation stories to help you get fit and stay fit!
+              </p>
+            </div>
+            <!-- banner button -->
+            <div class="flex gap-2">
+              <button
+                class="bg-(--btn-prymary) px-10 py-3 rounded-[46px] text-xl text-(--text-color) cursor-pointer"
+              >
+                Join Club Now!
+              </button>
+              <button
+                class="bg-transparent border-2 border-white px-10 py-3 rounded-[46px] text-xl text-(--text-color) cursor-pointer"
+              >
+                Download App
+              </button>
+            </div>
+          </div>
+          <!-- banner image -->
+          <div class="flex justify-center">
+            <img src="./images/Images 2.png" alt="" />
           </div>
         </section>
       </nav>
     </header>
     <main>
-      <section></section>
       <section></section>
       <section></section>
       <section></section>

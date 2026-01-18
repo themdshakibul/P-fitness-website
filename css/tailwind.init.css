@@ -15,5 +15,16 @@
   --bg-color: rgba(0, 0, 0, 1);
   --btn-prymary: rgba(230, 83, 60, 1);
   --text-color: rgba(255, 255, 255, 1);
+  --text-peragraph: rgba(255, 255, 255, 0.5);
   --border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* background image */
+
+.bg-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(17.41, 17.41, 17.41, 1) 0%,
+    rgba(119.41, 119.41, 119.41, 0) 100%
+  );
 }
